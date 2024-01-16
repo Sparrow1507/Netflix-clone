@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: black;
+    color: white;
+    font-family: "poppins",sans-serif;
+  }
+  .navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+  }
+  .navbar_netflix{
+    height: 100%;
+    width: 155px;
+    display: block;
+  }
+  .navbar_nav_items{
+    display: flex;
+    gap: 10px;
+  }
+  .netflix_logo{
+    width: 100%;
+    margin-top: -40px;
+  }
+  .Language_drop_down{
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 570;
+  }
+  .dropdown_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius:4px ;
+    background: rgba(0, 0, 0, 0.4);
+    
+  }
+  /* Add this CSS for the sign-in button */
+/* Add this CSS to set the text color of the sign-in button to white */
+/* Remove underline from the link */
+.signin_button a {
+  color: white;
+  text-decoration: none; 
+}
+.signin_button {
+  background-color: #dc030f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.signin_button:hover {
+  background-color: #c0020e;
+}
+
+/* Add any additional styles as needed */
+
+  .hero_bg_img_con{
+    height: 100%;
+    width: 100%;
+  }
+  .hero_bg_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .hero_bg_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .hero_card{
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero_title{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .hero_subtitle{
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+.hero_desc{
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+.email
+{
+  width: 450px;
+  height: 60px;
+  color: black;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  border-color: white;
+  background: rgba(0, 0, 0, 0.6);
+}
+.get_started{
+  font-size: larger;
+  width: 170px;
+  height: 60px;
+  background-color: #dc030f;
+  border: 1px solid #dc030f;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.card-1,
+.card-2,
+.card-3{
+  border-top: 8px rgb(69, 69, 69);
+  padding: 50px;
+}
+.card-1{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  align-items: center;
+  text-align: left;
+  padding: 25px 45px 50px;
+}
+.desc-1{
+  padding-left: 80px;
+}
+.style_cards h1{
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 0;
+}
+.style_cards h3{
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+.card-2{
+  position: relative;
+  display: flex;
+  grid-template-columns: 40% 50%;
+  align-items: center;
+  text-align: left;
+  padding: 25px 45px 50px;
+}
+.desc-2{
+  padding-left: 100%;
+}
+.card-3{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  align-items: center;
+  text-align: left;
+  padding: 25px 45px 50px;
+}
+.desc-3{
+  padding-left: 80px;
+  padding-right: 20px;
+}
+.hero_desc1{
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.email1
+{
+width: 450px;
+height: 60px;
+color: black;
+padding: 0.25rem 0.5rem;
+border-radius: 3px;
+border-color: white;
+background: rgba(0, 0, 0, 0.6);
+}
+.get_started1{
+font-size: larger;
+width: 170px;
+height: 60px;
+background-color: #dc030f;
+border: 1px solid #dc030f;
+color: white;
+border-radius: 5px;
+margin-left: 10px;
+}
+.footer {
+  background-color: #111;
+  color: #888;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 20px;
+}
+
+.foot_col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.foot_col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.foot_col ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #888;
+}
+
+.foot_col ul li:hover {
+  color: #fff;
+}
+
+.nav_item {
+  margin-top: 20px;
+}
+
+.dropdown_container {
+  position: relative;
+  display: inline-block;
+}
+
+.Language_drop_down {
+  padding: 8px;
+}
+
+.Language_drop_down:focus {
+  outline: none;
+}
+
+h5 {
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
